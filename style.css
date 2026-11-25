@@ -201,3 +201,15 @@ footer { border-top: 1px solid var(--line); padding: 40px 0; background: #03050a
 .benefit-card ol { margin: 0 0 24px; padding-left: 1.2em; color: #cdd5e7; }
 .benefit-card li { margin-bottom: .6em; }
 @media (max-width: 900px) { .benefit-inner { grid-template-columns: 1fr; gap: 24px; } }
+
+/* COPY v2 */
+.benefit h2 { max-width: 760px; }
+.cards.three { grid-template-columns: repeat(3, 1fr); }
+.cards.three article { background: rgba(5,7,13,.5); border-color: rgba(92,200,255,.28); }
+.cards .num { display: block; font-size: 2.6rem; font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 10px; }
+.cards.three h3 { text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; color: var(--text); }
+.benefit-cta { margin-top: 44px; }
+.benefit-cta .fine { margin: 16px auto 0; }
+.quote { border-left: 3px solid var(--accent); padding: 6px 0 6px 18px; font-size: 1.15rem; color: var(--text) !important; font-style: italic; }
+.cta-fine { margin: 18px auto 0 !important; }
+@media (max-width: 900px) { .cards.three { grid-template-columns: 1fr; } }
